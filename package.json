@@ -1,0 +1,23 @@
+{
+  "name": "sellizi-pay",
+  "version": "1.0.0",
+  "description": "Sellizi Pay - Payment updates and announcements portal",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "sellizi",
+    "pay",
+    "payments",
+    "updates"
+  ],
+  "author": "Sellizi",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "latest",
+    "serve": "latest"
+  }
+}
